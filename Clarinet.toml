@@ -1,0 +1,20 @@
+[project]
+name = "clarity-4-trustless-aggregator-tag"
+description = "Trustless DeFi Aggregator leveraging Clarity 4.0 features."
+version = "0.1.0"
+clarity-version = 4
+
+[contracts.tag-security-vault]
+path = "contracts/tag-security-vault.clar"
+depends-on = []
+
+[contracts.tag-passkey-wallet]
+path = "contracts/tag-passkey-wallet.clar"
+depends-on = []
+
+[contracts.external-dex-template]
+path = "contracts/external-dex-template.clar"
+depends-on = []
+
+[repl]
+costs = true

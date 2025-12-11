@@ -13,4 +13,3 @@ TAG utilizes the following features to deliver a uniquely secure experience:
 3.  **Passkey Smart Wallet:** Integrates `(secp256r1-verify)` to enable secure, biometric-based transaction signing (Passkey) instead of traditional private keys, enhancing user experience.
 4.  **Time-Based Security:** Leverages `(stacks-block-time)` to implement time-locked withdrawals and a cancellation window for emergency recovery scenarios.
 
-## 📁 Repository Structure
